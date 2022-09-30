@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+            background-color: lightgrey;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+}
+div:hover#primeira{
+    background-color: blue;
+}
+div:hover#segunda{
+    background-color: green;
+}
+div:hover#terceira{
+    background-color: red;
+}

@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android ;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype'); 
+}
+
+body{
+    background-color: #E9E6C3;
+}
+header{
+    background-image: linear-gradient(to bottom, #2fa866, #063d1e);
+    font-family: Arial, verdana, Helvetica, sans-serif;
+    padding: 10px;
+    border: 10px ;
+    margin: -8px ;
+    color: white;
+    
+}
+.titulo{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 27%);
+
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 1px;
+    
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+    
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+main{
+    font-family: 'android';
+    background-color: white;
+    padding: 1px 6px 6px 6px;
+    margin: 8px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 42%);
+}
+
+main > h1{
+    color: #207547;
+    text-indent: 10px;
+}
+main > p{
+    text-indent: 25px;
+}
+main > h2{
+    color: #207547;
+    text-indent: 10px;
+    font-size: 1.7em;
+}
+.personalizacao{
+    color:#184e30;
+    text-decoration: none;
+    background-color: #66f7a7;
+    font-weight: bold;
+    padding: 2px;
+}
+.personalizacao:hover{
+    text-decoration: underline;
+}
+p > strong{
+    color: green;
+}
+div{
+    background-color: #063D1E;
+    text-align: center;
+    padding: 21px 21px 21px 21px;
+    margin: -6px;
+}
+aside{
+    background-color: #83E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: -1px;
+    margin: 33px;
+    text-align: left;
+    border-radius: 10px;
+    padding-bottom: 1px;
+}
+h3{
+    background-color: #1A5C37;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > p{
+    text-indent: 20px ;
+}
+aside > p > a{
+    text-decoration: none;
+    color: #063b1d;
+    font-weight: bolder;
+}
+aside > p > a:hover{
+    text-decoration: underline;
+}
+#p2{
+    text-indent: 45px;
+}
+footer{
+    background-color: #063D1E;
+    padding: px;
+    margin: -8px;
+    
+}
+footer > p{
+    text-align: center;
+    padding: 2px;
+    font-size: 1em;
+    color: white;
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    color: #39c477;
+}
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+
+}
+aside > h3{
+    color: white;
+}
+
+
+
+
+
+
+
