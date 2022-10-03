@@ -47,20 +47,21 @@ p{
 main{
     font-family: 'android';
     background-color: white;
-    padding: 1px 6px 6px 6px;
-    margin: 8px;
+    padding: 1px 20px 6px 20px;
+    margin: 8px auto;
     text-align: center;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 42%);
+    width: 70%;
 }
 
 main > h1{
     color: #207547;
     text-indent: 10px;
 }
-main > p{
-    text-indent: 25px;
-}
+
+    
+
 main > h2{
     color: #207547;
     text-indent: 10px;
