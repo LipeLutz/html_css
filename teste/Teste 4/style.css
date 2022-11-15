@@ -20,6 +20,9 @@ div{
     width: 200px;
     border: 1px solid black;}
 
-#primeira{
+div > p.play:hover{
     background-color: blue;
+}
+div > p.xbox:hover{
+    background-color: green;
 }
