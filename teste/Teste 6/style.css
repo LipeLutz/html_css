@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+    */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+header{
+    color: white;
+    background-color: rgba(0, 183, 255, 0.76);
+    text-align: center;
+    height: 10vw;
+    
+}
+header > h1{
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+    padding-top: 3px;
+}
+header > p{
+    font-size: 1.5em;
+    padding-top: 45px;
+}
+section.texto{
+    background-color: transparent;
+    line-height: 100px;
+    font-size: 2em;
+    text-indent: 10px;
+    padding: 10px;
+}
+div.imagem{
+    background-image: url('imagens/906163.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+}
