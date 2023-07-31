@@ -15,20 +15,28 @@
 }
 
 body{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
 }
 
 header{
+    position: fixed;
     display: flex;
     height: 65px;
+    width: 1890px;
     justify-content: space-between;
     color: white;
     background-color: black;
     padding-left: 15px;
 }
 
-header > div > h1{
-    font-size: 1.3em;
+header div h1{
+    font-size: 1.5em;
+}
+
+main > h1{
+    font-size: 2em;
+    font-weight: 400;
 }
 
 a{
@@ -96,20 +104,123 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 1652px;
     text-align: center;
     color: white;
 }
 main > h1{
-   padding-top: 50px;
+   padding-top: 100px;
 }
-div.form{
-    margin-top: 30px;
-    padding: 20px;
-    width: 800px;
-    display: inline-flex;
+
+div#container{
+    margin: 40px auto;
+    width: 700px;
     background-color: #272846;
+    padding: 20px;
+    border-radius: 5px;
 }
+
+form{
+    display: block;
+    text-align: left;
+}
+
+div.form-group{
+    padding: 20px 0px 13px 20px;
+    font-size: 1.1em;
+}
+
+.form-control{
+    display: block;
+    width: 630px;
+    height: 22px;
+    padding: 0.375rem 0.75rem;
+    margin-top: 5px;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.select-option{
+    width: 657px;
+    height: 36px;
+    padding: 0.375rem 0.75rem;
+    margin-top: 5px;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight: bold;
+    color: #495057;
+}
+
+.select-option > option{
+    font-family: 'Poppins', sans-serif;
+}
+
+.select-option:focus{
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    
+}
+
+.clue {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #e4e4e4;
+  }
+
+.input-radio{
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    transform: translateY(3px);
+}
+.input-checkbox {
+    margin-right: 0.625rem;
+    margin-bottom: 12px;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    transform: translateY(3px);
+}
+
+.input-textarea {
+    margin-top: 10px;
+    height: 110px;
+    width: 94%;
+    padding: 0.625rem;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+.submit-button{
+    background-color: #37af65;
+    width: 661px;
+    height: 42px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+
 
 
 

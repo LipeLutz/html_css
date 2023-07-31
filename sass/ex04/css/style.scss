@@ -1,0 +1,66 @@
+/* for (Funciona da mesma forma que no JS) */
+
+/* 
+ throug e to
+    O through leva em consideração o último número da contagem, já o to, para antes de chegar no último número
+*/
+
+@for $i from 1 through 3{
+    .item-#{$i}{
+        background: green;
+        margin-bottom: 2px;
+    }
+}
+
+/* while (Funciona da mesma forma que no JS) */
+
+
+$contador: 1;
+@while $contador < 5{
+    .item-#{$contador}{
+        background: green;
+        margin-bottom: 2px;
+    }
+    $contador: $contador + 1;
+}
+
+
+/* each */
+
+
+$lista: green, yellow, red, purple;
+
+$contador: 1;
+@each $cor in $lista{
+    .item-#{$contador}{
+        background: $cor;
+        margin-bottom: 2px;
+    }
+    $contador: $contador + 1;
+}
+
+/* Funções */
+
+$total: 12;
+@function largura-coluna($coluna){
+
+    @return percentage($coluna/$total);
+}
+
+@for $i from 1 through $total{
+    .col-#{$i}{
+        width: largura-coluna($i);
+        background: green;
+    }
+}
+
+/* Outras funções 
+    mix(green, orange, 20%);
+    darken(green, 10%);
+    lighten(orange, 10%);
+*/
+
+.alerta{
+    background: lighten(orange, 10%);
+    color: yellow;
+}

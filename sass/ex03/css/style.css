@@ -1,0 +1,30 @@
+#conteudo {
+  background: green;
+  padding: 15px;
+}
+#conteudo h1 {
+  color: black;
+}
+#conteudo a {
+  color: red;
+  text-decoration: none;
+}
+#conteudo a:hover {
+  color: yellow;
+}
+
+h2 {
+  color: red;
+}
+
+#footer {
+  background-color: yellow;
+}
+
+h2 {
+  color: red;
+}
+
+vermelho {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

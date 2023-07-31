@@ -1,0 +1,17 @@
+$color-h1: blue;
+$color-p: green;
+$footer: red;
+$font-size-footer: 3rem;
+
+h1{
+    color: $color-h1;
+}
+
+p{
+    color: $color-p;
+}
+
+footer{
+    color: $footer;
+    font-size: $font-size-footer;
+}

@@ -1,0 +1,7 @@
+@for $i from 1 through 5{
+    .item-#{$i}{
+        background-color: mix(blue, yellow, 20%);
+        height: 50px;
+        width: 50px;
+    }
+}

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+header{
+    background-color: orange;
+    height: 21vh;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+header > h1{
+    margin: 0px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    font-size: 2.7em;
+}
+
+header p{
+    color: white;
+    display: inline;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    transition: transform 100ms ease-in-out;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+header a:hover{
+    transform: scale(1.05);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    background-color: white;
+    color: #f7b600;
+}
+
+#container{
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+.conteudo{
+    background-color: white;
+    width: 660px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.postagem{
+    padding: 20px;
+}
+
+.area-lateral{
+    width: 293px;
+    float: right;
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral{
+    padding-left: 12px;
+}
+
+.conteudo-lateral h2{
+    background-color: #ccc;
+    width: 260px;
+    padding: 5px ;
+}
+
+.area-lateral a {
+    text-decoration: none;
+    color: #f7b600;
+}
+
+.area-lateral a:hover{
+    background-color: #f7b600;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#categorias a{
+    display: block;
+    width: 200px;
+    padding-bottom: 5px;
+}
+
+#rodape{
+    background: green;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}

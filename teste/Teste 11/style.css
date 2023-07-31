@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+main{
+    width: 100%;
+}
+
+.main-content{
+    width: 50%;
+    min-width: 50%;
+    margin: 70px auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 255, 255, 0.658);
+}
+

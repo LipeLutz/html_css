@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* for (Funciona da mesma forma que no JS) */
+/* 
+ throug e to
+    O through leva em consideração o último número da contagem, já o to, para antes de chegar no último número
+*/
+.item-1 {
+  background: green;
+  margin-bottom: 2px;
+}
+
+.item-2 {
+  background: green;
+  margin-bottom: 2px;
+}
+
+.item-3 {
+  background: green;
+  margin-bottom: 2px;
+}
+
+/* while (Funciona da mesma forma que no JS) */
+.item-1 {
+  background: green;
+  margin-bottom: 2px;
+}
+
+.item-2 {
+  background: green;
+  margin-bottom: 2px;
+}
+
+.item-3 {
+  background: green;
+  margin-bottom: 2px;
+}
+
+.item-4 {
+  background: green;
+  margin-bottom: 2px;
+}
+
+/* each */
+.item-1 {
+  background: green;
+  margin-bottom: 2px;
+}
+
+.item-2 {
+  background: yellow;
+  margin-bottom: 2px;
+}
+
+.item-3 {
+  background: red;
+  margin-bottom: 2px;
+}
+
+.item-4 {
+  background: purple;
+  margin-bottom: 2px;
+}
+
+/* Funções */
+.col-1 {
+  width: 8.3333333333%;
+  background: green;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+  background: green;
+}
+
+.col-3 {
+  width: 25%;
+  background: green;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+  background: green;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+  background: green;
+}
+
+.col-6 {
+  width: 50%;
+  background: green;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+  background: green;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+  background: green;
+}
+
+.col-9 {
+  width: 75%;
+  background: green;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+  background: green;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+  background: green;
+}
+
+.col-12 {
+  width: 100%;
+  background: green;
+}
+
+/* Outras funções 
+    mix(green, orange, 20%);
+    darken(green, 10%);
+    lighten(orange, 10%);
+*/
+.alerta {
+  background: #ffb733;
+  color: yellow;
+}/*# sourceMappingURL=style.css.map */

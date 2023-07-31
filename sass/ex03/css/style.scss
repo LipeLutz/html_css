@@ -1,0 +1,52 @@
+// Aninhamento
+#conteudo{
+    background: green;
+    padding: 15px;
+
+    h1{
+        color: black;
+    }
+
+    a{
+        color: red;
+        text-decoration: none;
+
+        //Referenciando seletor pai
+        &:hover{
+            color: yellow;
+        }
+    }
+
+}
+
+//Variáveis
+
+$cor-titulo: red;
+$tamanho-titulo:20px;
+
+h2{
+    color: $cor-titulo
+}
+
+//Escopo de Variável
+
+$cor-padrao: red;
+#footer{
+    $cor-padrao:yellow;
+    background-color: $cor-padrao;
+}
+
+h2{
+    color: $cor-padrao;
+}
+
+//Interpolação
+
+$classe: red;
+$classe2: vermelho;
+$color: color;
+
+#{$classe2}{
+    #{$color}: $classe;
+}
+
